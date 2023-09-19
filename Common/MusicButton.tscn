@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Common/Sprites/nomusic.png" type="Texture" id=1]
+[ext_resource path="res://Common/Sprites/music.png" type="Texture" id=2]
+[ext_resource path="res://Common/MusicButton.cs" type="Script" id=3]
+
+[node name="MusicButton" type="TextureButton"]
+margin_right = 10.0
+margin_bottom = 10.0
+focus_mode = 0
+toggle_mode = true
+enabled_focus_mode = 0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 1 )
+texture_disabled = ExtResource( 1 )
+script = ExtResource( 3 )

@@ -1,0 +1,6 @@
+.import/
+.idea/
+.mono/
+# *.import files now should not be ignored
+export.cfg
+# export_presets.cfg
