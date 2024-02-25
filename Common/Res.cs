@@ -12,6 +12,7 @@ namespace Common
         {
             LoadResources<PackedScene, PackedScene>(PackedScenes, "res://Scenes/", "tscn");
             LoadResources<AudioStreamSample, AudioStream>(Sounds, "res://Sounds/", "wav", true);
+            LoadResources<AudioStreamMP3, AudioStream>(Sounds, "res://Sounds/", "mp3", true);
             LoadResources<AudioStreamOGGVorbis, AudioStream>(Sounds, "res://Sounds/", "ogg", true);
         }
 
